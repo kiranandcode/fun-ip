@@ -1,0 +1,5 @@
+(executable
+ (name funip)
+ (libraries core re2 ipaddr)
+  (preprocess (pps ppx_let ppx_deriving.std ppx_blob))
+)
